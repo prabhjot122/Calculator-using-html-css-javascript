@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <form name="form">
+            <input type="text" name="box">
+            <br>
+            <input type="button" value="1" onclick="form.box.value+=1">
+            <input type="button" value="2" onclick="form.box.value+=2">
+            <input type="button" value="3" onclick="form.box.value+=3">
+            <input type="button" value="+" onclick="form.box.value+=add()">
+            <br>
+            <input type="button" value="4" onclick="form.box.value+=4">
+            <input type="button" value="5" onclick="form.box.value+=5">
+            <input type="button" value="6" onclick="form.box.value+=6">
+            <input type="button" value="-" onclick="form.box.value+=sub()">
+            <br>
+            <input type="button" value="7" onclick="form.box.value+=7">
+            <input type="button" value="8" onclick="form.box.value+=8">
+            <input type="button" value="9" onclick="form.box.value+=9">
+            <input type="button" value="/" onclick="form.box.value+=div()">
+            <br>
+            <input type="button" value="c" onclick="form.box.value=''">
+            <input type="button" value="0" onclick="form.box.value+=0">
+            <input type="button" value="=" onclick="form.box.value=eval(form.box.value)">
+            <input type="button" value="x" onclick="form.box.value+=mul()">
+        </form>
+        
+    </div>
+    <script src="java.js"></script>
+    
+</body>
+</html>
